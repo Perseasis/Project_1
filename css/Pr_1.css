@@ -1,0 +1,395 @@
+
+
+.grenze-gotisch {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+    font-family: "Grenze Gotisch", serif;
+    margin: 0;
+    background-color: #000000;
+}
+
+ /* weird spaces help */
+
+.navbar {
+    background-color: #333; 
+    color: white;
+    position: sticky;
+    top: 0; 
+    width: 100%; 
+    height: 50%;
+    z-index: 1000; 
+    padding: 10px;
+    /* How Connect links to sections? I forgor, also how make hover animations? */
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+.navbar li {
+    margin: 0 15px; 
+}
+
+.navbar a {
+    color: white; 
+    text-decoration: none; 
+    padding: 15px; 
+    transition: background-color 0.3s; 
+    /* idk why this is red */
+}
+
+.navbar a:hover{
+    background-color: #000000;
+    color: rgb(150, 3, 3);
+
+}
+
+
+.firstimg {
+    position: relative; 
+    width: 100%; 
+     margin: auto; 
+}
+
+.skull {
+    width: 100%; 
+    height: auto; 
+}
+
+.Title {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #A71C1C; 
+    font-size: 110px; 
+    text-align: center; 
+}
+
+
+.about {
+    background-color: #370505; 
+    color: white; 
+    text-align: center;
+   padding-bottom: 50px;
+   padding-top: 50px;
+   font-size: medium;
+   
+}
+
+.about h2 {
+    margin: 0 0 20px; 
+    font-size: 2.5em; 
+}
+
+.about p {
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6; 
+    max-width: 500px;
+    text-align: left;
+}
+
+.secondimg {
+    position: relative; 
+    width: 100%; 
+     margin: auto; 
+}
+
+.cloaked {
+    width: 100%; 
+    height: auto; 
+}
+
+.bold {
+    position: absolute; 
+    top: 20%; 
+    left: 20%; 
+    transform: translate(-50%, -50%); 
+    color: #A71C1C; 
+    font-size: 110px; 
+    text-align: left; 
+    /* If time pulse? */
+}
+.unique {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #A71C1C; 
+    font-size: 110px; 
+    text-align: center; 
+}
+
+.striking {
+    position: absolute; 
+    top: 80%; 
+    left: 80%; 
+    transform: translate(-50%, -50%); 
+    color: #A71C1C; 
+    font-size: 110px; 
+    text-align: right; 
+}
+
+
+.rotated_box1 {
+    position: relative;
+    right: 30%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: auto;
+    border: solid #A71C1C 20px;
+    /* stroke: #A71C1C;
+    stroke-width: 60px; */
+    padding: 30px;
+   max-width: 300px;
+   rotate: -20deg;
+   font-size: small;
+/* how stroke? OR another box div behind thats red?  */
+}
+
+.rotated_box2 {
+    position: relative;
+    bottom:250px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: auto;
+    border: solid #A71C1C 20px;
+    /* stroke: #A71C1C 60px; */
+    padding: 30px;
+   max-width: 300px;
+   rotate: 15deg;
+   font-size: medium;
+
+}
+.rotated_box3 {
+    position: relative;
+    bottom: 650px;
+    left:35%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: auto;
+    border: solid #A71C1C 20px;
+    /* stroke: #A71C1C 60px; */
+    padding: 30px;
+    padding-bottom: 100px;
+   max-width: 300px;
+   font-size: 40px;
+   rotate: -15deg;
+
+}
+.red_box1 {
+    position: relative;
+    right: 30%;
+    background-color: rgb(205, 10, 10);
+    width: 100%;
+    margin: auto;
+   max-width: 400px;
+   rotate: -20deg;
+  
+
+}
+.thirdimg {
+    position: relative; 
+    width: 100%; 
+     margin: auto; 
+     /* weird space how help? and or strech out? would it be cropping? */
+}
+
+
+.skull_dos {
+    width: 100%; 
+    height: auto; 
+}
+
+section {
+    background-image: url('Pr1_img/skull_dos'); 
+    background-size: cover;
+    padding: 20px;
+}
+
+.thirdimg {
+    text-align: center;
+}
+
+.skull_dos {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 20px;
+}
+h2{
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.grenze{
+    position: relative;
+    left: 50%;
+}
+/* .Bold-Letter1,
+.Bold-Letter2,
+.Bold-Letter3,
+.Bold-Letter4 h2 {
+    
+    color: white;
+    margin: 20px 0; 
+}     */
+   /* Still struggling with spaceing */
+
+.Bold-Letter1 {
+    position: absolute; 
+    left: 50%; 
+    bottom: 1200px;
+}
+.Bold-Letter2 {
+    position: absolute; 
+    left: 50%; 
+    bottom: 900px;
+}
+.Bold-Letter3 {
+    position: absolute; 
+    left: 50%; 
+    bottom: 600px;
+}
+
+.Bold-Letter4 {
+    position: absolute; 
+    left: 50%; 
+    bottom: 200px;
+}
+h3{
+    font-size: 4em;
+    font-weight: 200;
+    color: #A71C1C;
+    letter-spacing: 15px;
+}
+/* .small-Letter1,
+.small-Letter2,
+.small-Letter3,
+.small-Letter4 {
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 1.2em; 
+    color: red;
+    margin: 10px 0; 
+    letter-spacing: 3px; 
+   
+} */
+
+.small-Letter1 {
+    position: absolute; 
+    bottom: 1200px;
+    left: 25%; 
+    rotate: 20deg;
+}
+
+.small-Letter2 {
+    position: absolute; 
+    top: -25%; 
+    left: 30%; 
+    rotate: -15deg;
+}
+
+.small-Letter3 {
+    position: absolute; 
+    top: 3%; 
+    left: 30%; 
+    rotate: 20deg;
+
+}
+
+.small-Letter4 {
+    position: absolute; 
+    top: 50%; 
+    left: 20%; 
+    rotate: -45deg;
+}
+
+.Event-section {
+    background-color: #8B0000; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    max-width: 900px; 
+    margin: 20px auto; 
+    
+}
+
+.Event-section .Event {
+    margin-bottom: 20px; 
+    padding: 15px; 
+    background-color: rgba(139, 0, 0, 0.8); /* Make sure all Reds are the same reds before sumbit some reds are placeholders rn */
+    border-radius: 8px; 
+    /* how dose this look? I'm derailiing from mock up for sake of my sanity */
+}
+
+.Event-section h1 {
+    font-size: 50px; 
+    margin-bottom: 10px; 
+}
+
+.Event-section h4 {
+    font-size: 30px; 
+    margin-bottom: 15px; 
+    font-weight: 300;
+}
+
+.Event-section p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    font-weight: 200;
+    margin-bottom: 20px;
+    max-width: 500px; 
+}
+
+.Event-section button {
+    background-color: white; 
+    color: black; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 25px; 
+    transition: background-color 0.3s; 
+    font-family: "Grenze Gotisch", serif;
+    font-weight: 500;
+}
+
+.Event-section button:hover {
+    background-color: #210101; 
+    color: white;
+}
+
+
+
+.forthimg {
+    position: relative; 
+    width: 100%; 
+     margin: auto; 
+     /* Finish Footer */
+}
+
+.figure {
+    width: 100%; 
+    height: auto; 
+}
+.footer {
+    color: white;
+    position: absolute;
+    left: 640px;
+    bottom: 50px;
+}
